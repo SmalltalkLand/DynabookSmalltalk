@@ -1,9 +1,13 @@
-80 (976370) Delay Scheduling
-60 (1740695) Background Screen updater
-60 (591515) User interrupt watcher
-60 (1099478) Event Tickler
-60 (3018676) Low Space Watcher
-50 (593701) WeakArray finalization
-40 (3905334) Morphic UI
-40 (3293824) Morphic UI -  [world]
-10 (84541) Idle Process
+80 (1981729) Delay Scheduling
+60 (4146593) Background Screen updater
+60 (3434944) User interrupt watcher
+60 (704602) Event Tickler
+60 (1732975) Low Space Watcher
+60 (195275) CPU usage analysis
+50 (864899) WeakArray finalization
+40 (1465563) Morphic UI -  [world]
+40 (3190512) Morphic UI
+40 (390261) Morphic UI
+40 (130554) Morphic UI
+40 (715844) Morphic UI
+10 (3101486) Idle Process

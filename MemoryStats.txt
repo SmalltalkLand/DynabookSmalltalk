@@ -1,9 +1,13 @@
-memory			87,957,504 bytes
-	old			79,005,472 bytes (89.8%)
-	young		-77,508,464 bytes (-88.1%)
-	used		1,497,008 bytes (1.7%)
-	free		86,460,496 bytes (98.3%)
-GCs				45,198
-	full			248 totalling 6,247ms, avg 25ms
-	incr			44950 totalling 21,705ms, avg 0ms
-	tenures		343,089 (avg 0 GCs/tenure)
+memory			88,743,936 bytes
+	old			79,791,904 bytes (89.9%)
+	young		-77,276,240 bytes (-87.1%)
+	used		2,515,664 bytes (2.8%)
+	free		86,228,272 bytes (97.2%)
+GCs				33
+	full			1 totalling 14ms, avg 14ms
+	incr			32 totalling 18ms, avg 1ms
+	tenures		5,994 (avg 0 GCs/tenure)
+Since last view	7
+	full			0 totalling 0ms
+	incr			7 totalling 4ms, avg 1ms
+	tenures		0
