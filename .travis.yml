@@ -3,7 +3,7 @@ language: python
 python:
   - "3.6"
 git:
-  depth: 1
+  depth: false
 
 os:
   - linux
