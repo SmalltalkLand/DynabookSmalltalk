@@ -12,7 +12,7 @@ before_install:
   - git checkout main
   - pip install mega.py
   - Cuis-Smalltalk-Dev/.ContinuousIntegrationScripts/installVm.sh
-  - travis_wait 30 sh .ContinuousIntegrationScripts/installCuis.sh
+  - sh .ContinuousIntegrationScripts/installCuis.sh
 
 script:
   - sh .ContinuousIntegrationScripts/runTests.sh
