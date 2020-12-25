@@ -17,7 +17,7 @@ upload_files() {
   # Remove existing "origin"
   git remote rm origin
   # Add new "origin" with access token in the git URL for authentication
-  git remote add origin https://SmalltalkLand:${GPASSWD}@github.co/SmalltalkLand/DynabookSmalltalk.git > /dev/null 2>&1
+  git remote add origin https://SmalltalkLand:${GPASSWD}@github.com/SmalltalkLand/DynabookSmalltalk.git > /dev/null 2>&1
   git push origin main --quiet
 }
 
