@@ -4,4 +4,8 @@ cat release.image.gz | gzip -d > Cuis5.0-4426.image
 sqcogspur64linuxht/bin/squeak -vm-display-null Cuis5.0-4426.image -d "BaseLine fileOutSystem." -d "Smalltalk at: #Auto put: #x.Smalltalk snapshot: true andQuit: true clearAllClassState: true."
 cat Cuis5.0-4426.image | gzip > release.image.gz
 rm Cuis5.0-4426.image
-git add -A && git commit -m stuff && git push
+git add -A && git commit -m stuff
+cat <<END | git push
+SmalltalkLand
+$GPASSWD
+END
