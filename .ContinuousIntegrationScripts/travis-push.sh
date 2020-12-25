@@ -7,7 +7,8 @@ setup_git() {
 }
 
 commit_country_json_files() {
-  git checkout master
+  git checkout main
+  git add -A
   # Current month and year, e.g: Apr 2018
   git commit -m "Travis update: $dateAndMonth (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"
 }
@@ -17,7 +18,7 @@ upload_files() {
   git remote rm origin
   # Add new "origin" with access token in the git URL for authentication
   git remote add origin https://SmalltalkLand:${GPASSWD}@github.co/SmalltalkLand/DynabookSmalltalk.git > /dev/null 2>&1
-  git push origin master --quiet
+  git push origin main --quiet
 }
 
 setup_git
