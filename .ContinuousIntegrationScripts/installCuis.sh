@@ -3,5 +3,6 @@ pip install mega.py
 cat release.image.gz | gzip -d > Cuis5.0-4426.image
 #sqcogspur64linuxht/bin/squeak -vm-display-null Cuis5.0-4426.image -d "Smalltalk at: #Auto put: #x.BaseLine fileOutSystem."  -d "Smalltalk at: #Auto put: #x.Smalltalk snapshot: true andQuit: true clearAllClassState: true."
 sqcogspur64linuxht/bin/squeak -vm-display-null Cuis5.0-4426.image -d "Smalltalk at: #Auto put: #x.BaseLine fileOutSystem. Smalltalk snapshot: true andQuit: true embedded: false clearAllClassState: true."
+echo "Cuis install done"
 cat Cuis5.0-4426.image | gzip > release.image.gz
 
