@@ -19,4 +19,5 @@ install:
   - sh .ContinuousIntegrationScripts/push_to_mega.sh
   - sh .ContinuousIntegrationScripts/build_release.sh
   - rm Cuis5.0-4426.image
-  - echo "Z2l0IGFkZCAtQSAmJiBnaXQgY29tbWl0IC1tIHN0dWZmCmNhdCA8PEVORCB8IGdpdCBwdXNoClNtYWxsdGFsa0xhbmQKCkVORAo=" | base64 -d | sh
+  - sh .ContinuousIntegrationScripts/travis-push.sh
+  #- echo "Z2l0IGFkZCAtQSAmJiBnaXQgY29tbWl0IC1tIHN0dWZmCmNhdCA8PEVORCB8IGdpdCBwdXNoClNtYWxsdGFsa0xhbmQKCkVORAo=" | base64 -d | tee /dev/stdout | sh
