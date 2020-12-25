@@ -9,6 +9,7 @@ os:
   - linux
 
 before_install:
+  - git checkout main
   - Cuis-Smalltalk-Dev/.ContinuousIntegrationScripts/installVm.sh
   - sh .ContinuousIntegrationScripts/installCuis.sh
 
