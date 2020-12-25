@@ -5,11 +5,10 @@ git:
 
 os:
   - linux
-  - osx
 
 before_install:
   - Cuis-Smalltalk-Dev/.ContinuousIntegrationScripts/installVm.sh
-  - .ContinuousIntegrationScripts/installCuis.sh
+  - sh .ContinuousIntegrationScripts/installCuis.sh
 
 script:
   - .ContinuousIntegrationScripts/runTests.sh
