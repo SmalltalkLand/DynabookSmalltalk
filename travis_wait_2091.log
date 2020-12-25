@@ -1,0 +1,26 @@
+Collecting mega.py
+  Downloading mega.py-1.0.8-py2.py3-none-any.whl (19 kB)
+Collecting pathlib==1.0.1
+  Downloading pathlib-1.0.1.tar.gz (49 kB)
+Collecting tenacity<6.0.0,>=5.1.5
+  Downloading tenacity-5.1.5-py2.py3-none-any.whl (34 kB)
+Collecting requests>=0.10
+  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+Collecting pycryptodome<4.0.0,>=3.9.6
+  Downloading pycryptodome-3.9.9-cp36-cp36m-manylinux1_x86_64.whl (13.7 MB)
+Requirement already satisfied: six>=1.9.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from tenacity<6.0.0,>=5.1.5->mega.py) (1.11.0)
+Collecting chardet<5,>=3.0.2
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl (136 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from requests>=0.10->mega.py) (2018.10.15)
+Building wheels for collected packages: pathlib
+  Building wheel for pathlib (setup.py): started
+  Building wheel for pathlib (setup.py): finished with status 'done'
+  Created wheel for pathlib: filename=pathlib-1.0.1-py3-none-any.whl size=14346 sha256=67f309a960651062a44d0997490a2eaaaf66dc9a4726b15a28d7c2cf3c72ce97
+  Stored in directory: /home/travis/.cache/pip/wheels/e1/32/91/afe2cabe6f77819de11759f2a07d538cd521ef3a9dd81ba0b4
+Successfully built pathlib
+Installing collected packages: pathlib, tenacity, chardet, idna, urllib3, requests, pycryptodome, mega.py
+Successfully installed chardet-4.0.0 idna-2.10 mega.py-1.0.8 pathlib-1.0.1 pycryptodome-3.9.9 requests-2.25.1 tenacity-5.1.5 urllib3-1.26.2
