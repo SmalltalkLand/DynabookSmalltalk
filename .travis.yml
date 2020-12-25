@@ -13,4 +13,4 @@ before_install:
 
 script:
   - .ContinuousIntegrationScripts/runTests.sh
-  - .ContinuousIntegrationScripts/push_to_mega.sh
+  - sh .ContinuousIntegrationScripts/push_to_mega.sh
