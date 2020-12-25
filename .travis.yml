@@ -12,5 +12,5 @@ before_install:
   - sh .ContinuousIntegrationScripts/installCuis.sh
 
 script:
-  - .ContinuousIntegrationScripts/runTests.sh
+  - sh .ContinuousIntegrationScripts/runTests.sh
   - sh .ContinuousIntegrationScripts/push_to_mega.sh
