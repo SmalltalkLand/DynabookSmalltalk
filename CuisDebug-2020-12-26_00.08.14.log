@@ -1,0 +1,476 @@
+NonBooleanReceiver: proceed for truth.
+26 December 2020 12:08:14.067234 am
+
+VM: unix - Croquet Closure Cog[Spur] VM [CoInterpreterPrimitives VMMaker.oscog-eem.2570]
+Image: Cuis 5.0 [latest update: #4426]
+
+UndefinedObject(Object)>>mustBeBooleanIn:
+	Receiver: nil
+	Arguments and temporary variables: 
+		arg1: 	TaskbarMorph>>layoutSubmorphs
+		temp2: 	nil
+	Receiver's instance variables: 
+nil
+UndefinedObject(Object)>>mustBeBoolean
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+TaskbarMorph>>layoutSubmorphs
+	Receiver: a TaskbarMorph(426557)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(a LayoutMorph(2082349) a KernelMorph(769167))
+		properties: 	nil
+		id: 	8
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	50@40
+		color: 	(Color r: 0.500 g: 0.500 b: 0.500)
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.500 g: 0.500 b: 0.500)
+		direction: 	#horizontal
+		separation: 	0
+		axisEdgeWeight: 	0.0
+		doAdoptWidgetsColor: 	false
+		viewBox: 	a LayoutMorph(2082349)
+		scale: 	nil
+		in: 	nil
+
+TaskbarMorph(LayoutMorph)>>beRow
+	Receiver: a TaskbarMorph(426557)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(a LayoutMorph(2082349) a KernelMorph(769167))
+		properties: 	nil
+		id: 	8
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	50@40
+		color: 	(Color r: 0.500 g: 0.500 b: 0.500)
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.500 g: 0.500 b: 0.500)
+		direction: 	#horizontal
+		separation: 	0
+		axisEdgeWeight: 	0.0
+		doAdoptWidgetsColor: 	false
+		viewBox: 	a LayoutMorph(2082349)
+		scale: 	nil
+		in: 	nil
+
+TaskbarMorph class(LayoutMorph class)>>newRow
+	Receiver: TaskbarMorph
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	LayoutMorph
+		methodDict: 	a MethodDictionary(#aboutToCollapse:->(TaskbarMorph>>#aboutToCollap[..]
+		format: 	65554
+		instanceVariables: 	#('viewBox' 'scale' 'in')
+		organization: 	('accessing' buttonFor: scale)
+('events' handlesMouseOver: mouseE[..]
+		subclasses: 	nil
+		name: 	#TaskbarMorph
+		classPool: 	nil
+		sharedPools: 	nil
+
+WorldMorph>>showTaskbar
+	Receiver:  [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+[] in WorldMorph>>recreateDefaultDesktop
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		temp1: 	#(About Cuis)
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+WorldMorph>>whenUIinSafeState:
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		arg1: 	[closure] in WorldMorph>>recreateDefaultDesktop
+		temp2: 	nil
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+WorldMorph>>recreateDefaultDesktop
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		temp1: 	#(About Cuis)
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+[] in [] in SystemDictionary>>reset:
+	Receiver: Smalltalk
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		tally: 	618
+		array: 	#(#HierarchicalListMorph -> HierarchicalListMorph nil nil #WidgetMorph -[..]
+		cachedClassNames: 	#(#AbstractEnvironment #AbstractEnvironmentClassBuilder #Abst[..]
+		cachedNonClassNames: 	#(#Auto #Display #EnvironmentImplementations #Processor #S[..]
+		startUpScriptArguments: 	#()
+		startUpArguments: 	#('-d' 'Smalltalk at: #Auto put: #x.[(Delay forSeconds: 290) [..]
+
+[] in WorldMorph>>whenUIinSafeState:
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		arg1: 	[closure] in [] in SystemDictionary>>reset:
+		temp2: 	a Semaphore(a Process 79 (679119) unnamed) with 0 signals
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+[] in WorldMorph>>runStepMethods
+	Receiver:  [world]
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+SmallInteger(Integer)>>timesRepeat:
+	Receiver: 3
+	Arguments and temporary variables: 
+		arg1: 	[closure] in WorldMorph>>runStepMethods
+		temp2: 	2
+	Receiver's instance variables: 
+3
+WorldMorph>>runStepMethods
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		temp1: 	3
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+WorldMorph>>doOneCycleNow
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		temp1: 	#(nil)
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+WorldMorph>>doOneCycle
+	Receiver:  [world]
+	Arguments and temporary variables: 
+		temp1: 	0
+		temp2: 	nil
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+WorldMorph>>mainLoop
+	Receiver:  [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+[] in WorldMorph>>runProcess
+	Receiver:  [world]
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		owner: 	nil
+		submorphs: 	#(About Cuis Transcript a TaskbarMorph(1399592) Workspace Workspace [..]
+		properties: 	nil
+		id: 	11
+		privateDisplayBounds: 	nil
+		location: 	MorphicTranslation(translation 0.0@0.0) 
+		layoutSpec: 	nil
+		extent: 	1688@855
+		color: 	(Color r: 0.800 g: 1.000 b: 0.600)
+		backgroundImage: 	nil
+		backgroundImageData: 	#[255 216 255 236 0 17 68 117 99 107 121 0 1 0 4 0 0 0 81 [..]
+		activeHand: 	a HandMorph(3748314)
+		hands: 	#(a HandMorph(3748314))
+		canvas: 	a BitBltCanvas on: DisplayScreen(1688x855x1)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> MessageNotUnderstood: CompiledMethod>>[..]
+		lastCycleTime: 	3786394090704
+		alarms: 	a Heap()
+		lastAlarmTime: 	0
+		deferredUIMessages: 	a SharedQueue(2)
+		drawingFailingMorphs: 	a WeakIdentitySet()
+		waitDelay: 	a Delay(50 msecs)
+		pause: 	20
+		lastCycleHadAnyEvent: 	true
+		taskbar: 	nil
+
+[] in BlockClosure>>newProcess
+	Receiver: [closure] in WorldMorph>>runProcess
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	WorldMorph>>runProcess
+		startpc: 	93
+		numArgs: 	0
+
+
+--- The full stack ---
+UndefinedObject(Object)>>mustBeBooleanIn:
+UndefinedObject(Object)>>mustBeBoolean
+TaskbarMorph>>layoutSubmorphs
+TaskbarMorph(LayoutMorph)>>beRow
+TaskbarMorph class(LayoutMorph class)>>newRow
+WorldMorph>>showTaskbar
+[] in WorldMorph>>recreateDefaultDesktop
+WorldMorph>>whenUIinSafeState:
+WorldMorph>>recreateDefaultDesktop
+[] in [] in SystemDictionary>>reset:
+[] in WorldMorph>>whenUIinSafeState:
+[] in WorldMorph>>runStepMethods
+SmallInteger(Integer)>>timesRepeat:
+WorldMorph>>runStepMethods
+WorldMorph>>doOneCycleNow
+WorldMorph>>doOneCycle
+WorldMorph>>mainLoop
+[] in WorldMorph>>runProcess
+[] in BlockClosure>>newProcess
