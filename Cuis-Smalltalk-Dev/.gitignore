@@ -1,8 +1,0 @@
-#macOS custom attributes
-.DS_Store
-
-#Cuis user changes
-*.user.changes
-*.user.???.changes
-*.image
-*.log

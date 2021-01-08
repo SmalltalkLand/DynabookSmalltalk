@@ -1,30 +1,9 @@
-80 (2536672) Delay Scheduling
-60 (2950952) Background Screen updater
-60 (3206070) User interrupt watcher
-60 (205506) Event Tickler
-60 (2033452) Low Space Watcher
-50 (1049276) WeakArray finalization
-19 (2334018) unnamed
-19 (2720022) unnamed
-19 (1696760) unnamed
-19 (382928) unnamed
-19 (1814862) unnamed
-19 (1417450) unnamed
-19 (3636036) unnamed
-19 (4052580) unnamed
-19 (415706) unnamed
-19 (3265086) unnamed
-19 (2227472) unnamed
-19 (2969208) unnamed
-19 (3850470) unnamed
-19 (943378) unnamed
-19 (891228) unnamed
-19 (1019916) unnamed
-19 (3808370) unnamed
-19 (2206054) unnamed
-19 (3702824) unnamed
-19 (2485024) unnamed
-19 (3119742) unnamed
-19 (519994) unnamed
-19 (2810228) unnamed
-10 (3649460) Idle Process
+80 (3663691) Delay Scheduling
+60 (3277169) Background Screen updater
+60 (3976710) User interrupt watcher
+60 (335982) Event Tickler
+60 (1319441) Low Space Watcher
+50 (564891) WeakArray finalization
+40 (1889278) Morphic UI
+40 (3111238) Morphic UI -  [world]
+10 (2416236) Idle Process
